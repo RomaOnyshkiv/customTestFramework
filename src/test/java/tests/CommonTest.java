@@ -1,7 +1,6 @@
 package tests;
 
-/**
- * Created by roma on 2/6/17.
- */
-public class CommonTest {
+import framework.ParentTest;
+
+public class CommonTest extends ParentTest {
 }

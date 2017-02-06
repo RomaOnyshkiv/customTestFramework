@@ -1,7 +1,13 @@
 package framework;
 
-/**
- * Created by roma on 2/6/17.
- */
+import org.openqa.selenium.WebDriver;
+
 public class DSL {
+    private WebDriver driver;
+
+    public DSL(WebDriver driver) {
+        this.driver = driver;
+    }
+
+
 }

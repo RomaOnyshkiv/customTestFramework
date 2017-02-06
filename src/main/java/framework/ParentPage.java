@@ -1,7 +1,10 @@
 package framework;
 
-/**
- * Created by roma on 2/6/17.
- */
-public class ParentPage {
+import org.openqa.selenium.WebDriver;
+
+public class ParentPage extends DSL {
+
+    public ParentPage(WebDriver driver) {
+        super(driver);
+    }
 }

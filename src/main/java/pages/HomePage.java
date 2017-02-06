@@ -1,7 +1,12 @@
 package pages;
 
-/**
- * Created by roma on 2/6/17.
- */
-public class HomePage {
+import framework.ParentPage;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage extends ParentPage {
+
+    public HomePage(WebDriver driver) {
+        super(driver);
+    }
+
 }
